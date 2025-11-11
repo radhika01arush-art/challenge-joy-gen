@@ -103,8 +103,13 @@ const About = () => {
           />
         </div>
 
-        <footer className="text-center text-muted-foreground text-sm fade-up pb-8">
-          Keep challenging yourself 🌻
+        <footer className="text-center text-muted-foreground text-sm fade-up pb-8 space-y-2">
+          <p>Keep challenging yourself 🌻</p>
+          <div className="flex items-center justify-center gap-3">
+            <Link to="/privacy" className="hover:text-primary transition-colors underline">
+              Privacy Policy
+            </Link>
+          </div>
         </footer>
       </div>
     </div>

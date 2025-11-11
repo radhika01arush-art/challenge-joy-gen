@@ -54,6 +54,10 @@ const Index = () => {
               About
             </Link>
             <span>•</span>
+            <Link to="/privacy" className="hover:text-primary transition-colors underline">
+              Privacy Policy
+            </Link>
+            <span>•</span>
             <span>Developed with 💜 using Lovable</span>
           </div>
         </footer>
