@@ -27,6 +27,10 @@ const Quiz = () => {
     });
   }, []);
 
+  useEffect(() => {
+    setSelectedAnswer(null);
+  }, [currentQuestion]);
+
   const handleAnswer = (answerIndex: number) => {
     setSelectedAnswer(answerIndex);
     if (answerIndex === questions[currentQuestion].correctAnswer) {
