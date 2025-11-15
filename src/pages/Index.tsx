@@ -100,6 +100,12 @@ const Index = () => {
           <p className="text-xl text-muted-foreground">
             Test your skills with fun games and challenges
           </p>
+          <div className="flex justify-center mt-4">
+            <Button onClick={() => navigate("/leaderboard")} size="lg" variant="outline" className="gap-2">
+              <Trophy className="h-5 w-5" />
+              Leaderboard
+            </Button>
+          </div>
         </header>
 
         {/* Streak Tracker */}
